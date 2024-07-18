@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Random Quote Generator</title>
+  </head>
+  <body>
+    <div
+      class="bg position-relative text-center d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="bg-overlay position-absolute w-100"></div>
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center"
+      >
+        <div
+          class="glitch-wrapper d-flex justify-content-center align-items-center"
+        >
+          <p class="glitch1 glitch">Quote</p>
+          <p class="glitch2 glitch">of</p>
+          <p class="glitch3 glitch">The</p>
+          <p class="glitch4 glitch">Day</p>
+        </div>
+        <div class="text z-1 position-relative">
+          <p>Press the button below to recieve a random quote!</p>
+        </div>
+        <button onclick="displayQuotes()">New Quote</button>
+        <div id="author-quote">
+          <!-- <p id="quote">
+            &ldquo;Be yourself; everyone else is already taken.&rdquo;
+          </p>
+          <p class="ps-2 pt-2 text-capitalize" id="author">― Oscar Wilde</p> -->
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
